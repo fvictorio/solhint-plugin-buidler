@@ -1,0 +1,11 @@
+{
+  "name": "solhint-plugin-buidler",
+  "version": "0.0.1",
+  "description": "A Solhint plugin for the buidler ecosystem",
+  "main": "index.js",
+  "scripts": {},
+  "license": "MIT",
+  "peerDependencies": {
+    "solhint": "^3.0.0-rc.3"
+  }
+}
