@@ -7,6 +7,6 @@
   "license": "MIT",
   "repository": "https://github.com/fvictorio/solhint-plugin-buidler",
   "peerDependencies": {
-    "solhint": "^3.0.0-rc.3"
+    "solhint": "^3.0.0"
   }
 }
