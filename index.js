@@ -18,6 +18,13 @@ class NoConsoleChecker {
       this.reporter.errorAt(line, column, this.ruleId, "Don't use console");
     }
   }
+
+  ImportDirective(node) {
+    if (node.path.trim() === "@nomiclabs/buidler/console.sol") {
+      const { line, column } = node.loc.start;
+      this.reporter.errorAt(line, column, this.ruleId, "Don't import console");
+    }
+  }
 }
 
 module.exports = [NoConsoleChecker];
